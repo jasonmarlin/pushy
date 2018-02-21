@@ -4,6 +4,7 @@
 * by Christopher Yee */
 
 $menu_width: 200px !default;
+$pushy_arrow_img: "../img/arrow.svg" !default;
 
 /* Menu Appearance */
 
@@ -178,7 +179,7 @@ $menu_width: 200px !default;
         position: absolute;
         top: 50%;
         right: 15px;
-        background: url("../img/arrow.svg") no-repeat;
+        background: url($pushy_arrow_img) no-repeat;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
